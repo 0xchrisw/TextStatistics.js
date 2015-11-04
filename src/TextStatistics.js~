@@ -27,6 +27,7 @@ var TextStatistics = ( function( ) {
    *
    */
   return {
+    Tools: tools,
     text: new String( ),
     read: function( text ) {
       /**

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="woodall.christopher@gmail.com">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+    <title>TextStatistics.js - Test</title>
+    <link href="#" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+    </nav>
+    <!-- /Navigation -->
+
+    <!-- Main -->
+    <main>
+    This is some example text…
+    ∙ Just
+    ∙ Testing
+    </main>
+    <!-- Main -->
+
+    <script src="../src/Tools.js"></script>
+    <script src="../src/Text.js"></script>
+    <script src="../src/TextStatistics.js"></script>
+    <script>
+      var stats = TextStatistics.read( );
+      
+      console.log( stats );
+      
+    </script>
+  </body>
+</html>
